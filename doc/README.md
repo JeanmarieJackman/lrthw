@@ -22,7 +22,7 @@ Why "The Hard Way"?
 4. Do Not Copy-Paste. This is to train your hands (etc), brain, and mind. Copy-paste and you lose the benefit. Result: speed (typing).
 5. Practice and Persist. Keep going. Right now, it's as hard as it'll ever be. It can only get easier.
 
-### 0. The Setup
+### 0. Setting Up (The Setup)
 
 1. Get set up with Ruby and a text editor on Mac OSX (TextWrangler), Windows (Notepad++), or Linux (gedit).
 2. Learn how to Google efficiently, by writing `ruby` and a keyword, e.g. `arrays`.
@@ -32,7 +32,7 @@ Why "The Hard Way"?
 
 > A quiz would be a good way to assess progress on 00 and 0.
 
-### 1. A Good First Program
+### 1. Hello, World! (A Good First Program)
 
 1. Create a file called `ex1.rb`.
 2. Add code to the file.
@@ -57,11 +57,15 @@ puts 'I "said" do not touch this.'
 
 > There is a quick explanation about what error messages are and how to use them.
 
+> We could use simple text-matching to check the answer is correct at this stage.
+
 4. Study Drills
 
 a. Make your script print another line.
 b. Make your script print only one of the lines.
 c. Put a # character at the beginning of the line. What did it do? Try to find out what this character does.
+
+> We'd need some sort of auto-evaluator for this stuff, if we wanted to auto-check it.
 
 5. Common questions
 

@@ -11,6 +11,7 @@ Being able to script procedural programs in Ruby (and perhaps other languages, s
 ## Curriculum Methodology
 
 1. Take [notes](./doc) on each [LRTHW](https://www.amazon.ca/Learn-Ruby-Hard-Way-Computational/dp/032188499X) exercise.
-2. Figure out a graph model for it. Add application projects as key nodes and reading/challenges/practicals as extension nodes.
+2. Figure out a [graph model](./graph) for it. Add application projects as key nodes and reading/challenges/practicals as extension nodes.
 3. Integrate with [Graph](https://github.com/makersacademy/graph).
 4. Try it out as part of an open "learn programming" system.
+
