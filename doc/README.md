@@ -76,3 +76,53 @@ Save your file first as a `.rb` file, such as `ex1.rb`. Then you'll have colours
 You need to be in the same directory as the file you created. Use the `cd` command in the Terminal to go there first. Use the `pwd` and `ls` commands in Terminal to see where you are.
 
 > These little tips would be nice as GIFs with sound/short friendly videos.
+
+### 2. Comments and Pound Characters
+
+> Learn how to leave comments in your programs for other developers, and for yourself in the future.
+
+Comments are notes you can leave in your programs, e.g. to explain what a part of the program does.
+
+> These one-line explanations would be a nice competition to run with new devs. They'd come up with better ones. And then there'd be many examples, which might make a nice library about the concept.
+
+Code to type
+
+```ruby
+# A comment. You can write a note after this symbol.
+# Anything after the # symbol is ignored by Ruby.
+
+puts "This sentence will be printed." # but this sentence won't.
+
+# You can use comments to disable, or "comment out" lines of code:
+# puts "This line will never be run."
+
+puts "This line will be run."
+```
+
+What you should see
+
+```bash
+$ ruby ex2.rb
+This sentence will be printed.
+THis line will be run.
+```
+
+**Study Drills**
+
+1. Pick a name for the `#` character. You could choose: hash, hashtag, or pound. Whichever one you like: people will know what you're talking about.
+
+> The rest of the study drills aim to develop good debugging practices. But it relies on the program not working, which it would be by now. The reader is encouraged to read the code backwards (weird) and out loud (good idea). There might be better ways to get them to do this.
+
+**Student Questions**
+
+**Why does the # in `puts "Hi # there"` not get ignored?**
+The # in that code is inside a string. Google `ruby string` for more.
+
+**How do I "comment out" multiple lines?**
+Put a # in front of each one.
+
+**I don't know how to type the # character.**
+Google for "how to type a hashtag".
+
+> It feels like this exercise should be optional.
+

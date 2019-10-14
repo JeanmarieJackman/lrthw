@@ -1,6 +1,6 @@
 # Learn Ruby, the Graph Way
 
-A graph-based version of Learn Ruby The Hard Way.
+A graph-based version of Learn Ruby The Hard Way. I've adapted some bits I feel could be more efficient/explanatory etc.
 
 ## Why LRTHW?
 
